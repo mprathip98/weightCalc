@@ -1,0 +1,21 @@
+firstNum = float(input("First Number: "))
+secondNum = float(input("Second number: "))
+sum = firstNum + secondNum
+print("Sum = " + str(sum))
+import math
+weight = int(input("Weight: "))
+measure = input("(K)gs or (L)bs: ")
+if measure == "l":
+    convertedWeight = weight / 2.205
+    print("You are " + str(math.ceil(convertedWeight)) + "kgs")
+elif measure == "k":
+    convertedWeight = weight * 2.205
+    print("You are " + str(math.ceil(convertedWeight)) + "lbs")
+
+
+
+
+
+
+
+
